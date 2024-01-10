@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 namespace Source.Player
@@ -11,7 +10,10 @@ namespace Source.Player
 
         void Update()
         {
-            Look();
+            if (Input.GetKey(KeyCode.Mouse1))
+            {
+                Look(); 
+            }
             Move();
         }
 
@@ -28,9 +30,9 @@ namespace Source.Player
                 transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, speed * Time.deltaTime);
             }
         }
-
         void Move()
         {
+            
             float horizontalInput = Input.GetAxis("Horizontal");
             float verticalInput = Input.GetAxis("Vertical");
 
