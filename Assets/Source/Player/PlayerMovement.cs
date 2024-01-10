@@ -2,48 +2,39 @@ using UnityEngine;
 
 namespace Source.Player
 {
-    public class PlayerMovement : MonoBehaviour
+    public class PlayerMovement : MonoBehaviour {
+        [SerializeField] private Rigidbody _rigidBody;
+        [SerializeField] private Transform _model;
+        [SerializeField] private float _speed = 5;
+        [SerializeField] private float _turnSpeed = 360;
+        private Vector3 _input;
+        public Camera camera;
+
+        private void Update() {
+            GatherInput();
+            Look();
+            Move();
+        }
+
+        private void GatherInput() {
+            _input = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
+        }
+
+        private void Look() {
+            if (_input == Vector3.zero) return;
+
+            Quaternion rot = Quaternion.LookRotation(_input.ToIso(), Vector3.up);
+            _model.rotation = Quaternion.RotateTowards(_model.rotation, rot, _turnSpeed * Time.deltaTime);
+        }
+
+        private void Move() {
+            _rigidBody.MovePosition(transform.position + _input.ToIso() * _input.normalized.magnitude * _speed * Time.deltaTime);
+        }
+    }
+
+    public static class Helpers 
     {
-        [Tooltip("Скорость персонажа")]
-        public float speed;
-        [Tooltip("Скорость поворота")]
-        public float rotationSpeed;
-
-        public float offset;
-        
-        void Update()
-        {
-            Movement();
-            Rotation();
-        }
-
-        private void Movement()
-        {
-            float horizontalInput = Input.GetAxis("Horizontal");
-            float verticalInput = Input.GetAxis("Vertical");
-            
-            Vector3 movement = new Vector3(-verticalInput, 0, horizontalInput).normalized;
-            
-            transform.Translate(movement * speed * Time.deltaTime);
-            
-            transform.position = new Vector3(transform.position.x, 1.1f, transform.position.z);
-        }
-
-        private void Rotation()
-        {
-            if (Input.GetKey(KeyCode.Mouse1))
-            {
-                Vector3 mousePos = Input.mousePosition;
-                mousePos.z = Camera.main.transform.position.y;
-                Vector3 targetPosition = Camera.main.ScreenToWorldPoint(mousePos);
-
-           
-                Vector3 lookDirection = targetPosition - transform.position;
-                lookDirection.y = 0;
-
-                Quaternion rotation = Quaternion.LookRotation(lookDirection);
-                transform.rotation = Quaternion.Slerp(transform.rotation, rotation, rotationSpeed * Time.deltaTime);
-            }
-        }
+        private static Matrix4x4 _isoMatrix = Matrix4x4.Rotate(Quaternion.Euler(0, 45, 0));
+        public static Vector3 ToIso(this Vector3 input) => _isoMatrix.MultiplyPoint3x4(input);
     }
 }
