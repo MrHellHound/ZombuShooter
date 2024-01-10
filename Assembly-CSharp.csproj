@@ -42,11 +42,19 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Source\Guns\GunsData.cs" />
+     <Compile Include="Assets\Source\Player\PlayerMovement.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Presentation" />
+     <Folder Include="Assets\Presentation\Prefabs" />
+     <Folder Include="Assets\Presentation\Models\apc9k\source" />
+     <Folder Include="Assets\Presentation\Models\apc9k" />
+     <Folder Include="Assets\Presentation\Models" />
+     <Folder Include="Assets\Presentation\Materials" />
+     <Folder Include="Assets\Presentation\Models\apc9k\textures" />
      <Folder Include="Assets\Source\Guns" />
      <Folder Include="Assets\Source" />
      <Folder Include="Assets\Presentation\Scenes" />
+     <Folder Include="Assets\Source\Player" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>

@@ -171,3 +171,61 @@ Received Import Request.
   path: Assets/Source/Guns/Glock 17.asset
   artifactKey: Guid(d208f9e4dd4d2f645acaa4281e77265b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Source/Guns/Glock 17.asset using Guid(d208f9e4dd4d2f645acaa4281e77265b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2884a730c0d0f6203de10f9ee31a1ecc') in 0.031203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 492.660766 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/Painter_marmo_Accesories_Metallic_Utility_.png
+  artifactKey: Guid(3afdb7287ab30d842b58e7934881a9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/Painter_marmo_Accesories_Metallic_Utility_.png using Guid(3afdb7287ab30d842b58e7934881a9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac130c9e21d356b7b50e4a0e1e59647') in 0.066781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_Roughness_Utility_-_R.png
+  artifactKey: Guid(ab5754cbe58f21349befdb17905c7143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_Roughness_Utility_-_R.png using Guid(ab5754cbe58f21349befdb17905c7143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e7675f6323dab308957984b2fa2c3c') in 0.010703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/Painter_marmo_Accesories_Roughness_Utility.png
+  artifactKey: Guid(44ac0f6001e48984bb4ed0af3e36affa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/Painter_marmo_Accesories_Roughness_Utility.png using Guid(44ac0f6001e48984bb4ed0af3e36affa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f2b9fb8fbce43d5eced4c1a04ee923') in 0.010108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.626250 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/Painter_marmo_Accesories_Normal_Utility_-_.png
+  artifactKey: Guid(75e011dac40d93348a05c669559b9fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/Painter_marmo_Accesories_Normal_Utility_-_.png using Guid(75e011dac40d93348a05c669559b9fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f43de450cecd993e668f7837962fb3') in 0.051858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_Roughness_Utility_-_R.png
+  artifactKey: Guid(ab5754cbe58f21349befdb17905c7143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_Roughness_Utility_-_R.png using Guid(ab5754cbe58f21349befdb17905c7143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9339c231aa798875229037947c7f1a7d') in 0.014027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.440855 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/Painter_marmo_Accesories_Roughness_Utility.png
+  artifactKey: Guid(44ac0f6001e48984bb4ed0af3e36affa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/Painter_marmo_Accesories_Roughness_Utility.png using Guid(44ac0f6001e48984bb4ed0af3e36affa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507564fe24e166d1e1daeb0ec8176636') in 0.017218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.741892 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom.psd
+  artifactKey: Guid(ca51b19024094d1b87f3e07edb0a75fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom.psd using Guid(ca51b19024094d1b87f3e07edb0a75fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688a0ac957d3505814a3661651efcf76') in 0.036451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter.psd
+  artifactKey: Guid(81ed8c76d2bc4a4c95d092c98af4e58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter.psd using Guid(81ed8c76d2bc4a4c95d092c98af4e58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aede8093aac20b33f19bb27205017204') in 0.045270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom_Light.psd
+  artifactKey: Guid(585b70cb75dd43efbfead809c30a1731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom_Light.psd using Guid(585b70cb75dd43efbfead809c30a1731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4236eaaea3dbcc2795706b84fd959930') in 0.027585 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

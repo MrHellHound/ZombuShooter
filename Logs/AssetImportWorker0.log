@@ -171,3 +171,121 @@ Received Import Request.
   path: Assets/Source/Guns/M4A1.asset
   artifactKey: Guid(87705879f562d6e44abe5b7e53a19794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Source/Guns/M4A1.asset using Guid(87705879f562d6e44abe5b7e53a19794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49e202098975031edc000b635d3b641') in 0.040692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 383.136560 seconds.
+  path: Assets/Presentation/Models
+  artifactKey: Guid(d45ab28440e69ef4fba902d7036fafc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models using Guid(d45ab28440e69ef4fba902d7036fafc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11dd9ef6e96342acc90514f1bea801d') in 0.005425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.507509 seconds.
+  path: Assets/Presentation/Models/apc9k
+  artifactKey: Guid(1435a63ddacd9c045a6202c27af045e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k using Guid(1435a63ddacd9c045a6202c27af045e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1083f35df8c3fe780c766e4a936b7a86') in 0.005097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.368015 seconds.
+  path: Assets/Presentation/Models/apc9k/source
+  artifactKey: Guid(f312da068e5e46444b05020fa42b17b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/source using Guid(f312da068e5e46444b05020fa42b17b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9845664184ea3a1c42809e0d15bc63') in 0.005010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.066996 seconds.
+  path: Assets/Presentation/Models/apc9k/source/Painter marmo.fbx
+  artifactKey: Guid(593fe28773d5a224fbd57426ffb03ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/source/Painter marmo.fbx using Guid(593fe28773d5a224fbd57426ffb03ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2866c305bc9f5de5d072004074e50cec') in 0.131137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.384616 seconds.
+  path: Assets/Presentation/Models/apc9k/textures
+  artifactKey: Guid(8bd4a406bbc5bca49a78d1effaf39f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures using Guid(8bd4a406bbc5bca49a78d1effaf39f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa0dd77583a5d25f231a1e1dd5c4dc8') in 0.005383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052631 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/Painter_marmo_Accesories_BaseColor_Utility.png
+  artifactKey: Guid(5c50eb86bb0f7be438a21486006ce4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/Painter_marmo_Accesories_BaseColor_Utility.png using Guid(5c50eb86bb0f7be438a21486006ce4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523acdb2ce9b43f12343d7ce1055c0e0') in 0.055045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_Metallic_Utility_-_Ra.png
+  artifactKey: Guid(636b8c2a676a7bd4685714d573ce29ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_Metallic_Utility_-_Ra.png using Guid(636b8c2a676a7bd4685714d573ce29ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac3af0e0545797029211962a1dc3cce') in 0.009417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_BaseColor_Utility_-_s.png
+  artifactKey: Guid(c77a485a6507959478c77add5276b93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_BaseColor_Utility_-_s.png using Guid(c77a485a6507959478c77add5276b93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20e12264dd2391c7342d37aa321ce5d') in 0.010855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_Normal_Utility_-_Raw..png
+  artifactKey: Guid(f5739a75cbdf3a84d8d876a266cc2581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_Normal_Utility_-_Raw..png using Guid(f5739a75cbdf3a84d8d876a266cc2581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c593e7dfe896c3359abc662cd4484b') in 0.010056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/Painter_marmo_Accesories_Normal_Utility_-_.png
+  artifactKey: Guid(75e011dac40d93348a05c669559b9fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/Painter_marmo_Accesories_Normal_Utility_-_.png using Guid(75e011dac40d93348a05c669559b9fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d1a6e754f9de794453f77a7f8181c5') in 0.009193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.613822 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/Painter_marmo_Accesories_Metallic_Utility_.png
+  artifactKey: Guid(3afdb7287ab30d842b58e7934881a9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/Painter_marmo_Accesories_Metallic_Utility_.png using Guid(3afdb7287ab30d842b58e7934881a9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a5432dc7279c0285d073f448b47c3b') in 0.028363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_Metallic_Utility_-_Ra.png
+  artifactKey: Guid(636b8c2a676a7bd4685714d573ce29ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_Metallic_Utility_-_Ra.png using Guid(636b8c2a676a7bd4685714d573ce29ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03d1b1c0380e4247a1eee8c207ac533') in 0.013350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_BaseColor_Utility_-_s.png
+  artifactKey: Guid(c77a485a6507959478c77add5276b93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_BaseColor_Utility_-_s.png using Guid(c77a485a6507959478c77add5276b93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7bd1352f06a54015e0b1f4f24482226') in 0.017671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_Normal_Utility_-_Raw..png
+  artifactKey: Guid(f5739a75cbdf3a84d8d876a266cc2581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_Normal_Utility_-_Raw..png using Guid(f5739a75cbdf3a84d8d876a266cc2581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76dae0b39cd2ca27c85be481f28b0c2') in 0.012422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.427009 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/Painter_marmo_Accesories_BaseColor_Utility.png
+  artifactKey: Guid(5c50eb86bb0f7be438a21486006ce4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/Painter_marmo_Accesories_BaseColor_Utility.png using Guid(5c50eb86bb0f7be438a21486006ce4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9436aaea6203fda9dd071fe502bb46') in 0.017688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.741851 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd
+  artifactKey: Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd using Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42cfc1279a46fbaf1919953bf728d691') in 0.034145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd
+  artifactKey: Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd using Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03fa845761212c2e46fac3b4343677a') in 0.027383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo_Light.psd
+  artifactKey: Guid(35ff0937876540d3bd4b6a941df62a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo_Light.psd using Guid(35ff0937876540d3bd4b6a941df62a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c314c1eab5db39322d40cbb3d09b00c') in 0.026579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine_Light.psd
+  artifactKey: Guid(49679f302ac6408697f6b9314a38985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine_Light.psd using Guid(49679f302ac6408697f6b9314a38985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe7d1f075d98d33dc2c1ed45056eb5a') in 0.028589 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
