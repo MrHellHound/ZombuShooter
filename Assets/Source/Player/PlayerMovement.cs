@@ -39,10 +39,10 @@ namespace Source.Player
         }
 
         private void Move() {
-            if (!Input.GetKey(KeyCode.Mouse1))
-            {
+            //if (!Input.GetKey(KeyCode.Mouse1))
+            //{
                 _rigidBody.MovePosition(transform.position + _input.ToIso() * _input.normalized.magnitude * _speed * Time.deltaTime);
-            }
+            //}
         }
     }
 

@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 120529655}
   - component: {fileID: 120529654}
   - component: {fileID: 120529653}
+  - component: {fileID: 120529657}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -170,7 +171,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 120529651}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18630c3214ca0c84cb6193ddcf6da578, type: 3}
   m_Name: 
@@ -180,7 +181,6 @@ MonoBehaviour:
   _speed: 5
   _turnSpeed: 5000
   camera: {fileID: 1898006676}
-  offset: 10
 --- !u!65 &120529654
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -228,6 +228,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 84
   m_CollisionDetection: 0
+--- !u!114 &120529657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120529651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98bad6a416619a448845f505baacacd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 2
+  speed: 10
+  camera: {fileID: 1898006676}
 --- !u!1 &327438842
 GameObject:
   m_ObjectHideFlags: 0
