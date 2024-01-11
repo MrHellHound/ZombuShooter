@@ -45,6 +45,7 @@
      <Compile Include="Assets\Source\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Source\Player\PlayerRotation.cs" />
      <Compile Include="Assets\Source\Player\Playermovement_2.cs" />
+     <Compile Include="Assets\Source\Guns\GunsHolster.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Presentation" />
      <Folder Include="Assets\Presentation\Prefabs" />

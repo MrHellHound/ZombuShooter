@@ -1,0 +1,291 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ru' Physical Memory: 32620 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Unity/Unity Editor/Unity Projects/ZombuShooter
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63442
+Successfully changed project path to: E:/Unity/Unity Editor/Unity Projects/ZombuShooter
+E:/Unity/Unity Editor/Unity Projects/ZombuShooter
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19064] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 2585139218 [EditorId] 2585139218 [Version] 1048832 [Id] WindowsEditor(7,HellHound) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19064] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 2585139218 [EditorId] 2585139218 [Version] 1048832 [Id] WindowsEditor(7,HellHound) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 68.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.21f1 (1b156197d683)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/Unity Editor/Unity Projects/ZombuShooter/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Ti (ID=0x2208)
+    Vendor:   NVIDIA
+    VRAM:     12100 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003425 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 64.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.513 seconds
+Domain Reload Profiling:
+	ReloadAssembly (514ms)
+		BeginReloadAssembly (65ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (367ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (89ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (210ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003258 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity Editor\Unity Projects\ZombuShooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity Editor\Unity Projects\ZombuShooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.815 seconds
+Domain Reload Profiling:
+	ReloadAssembly (815ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (635ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (218ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (56.5 KB). Loaded Objects now: 3510.
+Memory consumption went from 107.4 MB to 107.4 MB.
+Total: 2.855700 ms (FindLiveObjects: 0.275100 ms CreateObjectMapping: 0.236100 ms MarkObjects: 2.262700 ms  DeleteObjects: 0.081000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 309607.999747 seconds.
+  path: Assets/Source/Guns/M4A1.asset
+  artifactKey: Guid(87705879f562d6e44abe5b7e53a19794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Source/Guns/M4A1.asset using Guid(87705879f562d6e44abe5b7e53a19794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49e202098975031edc000b635d3b641') in 0.040692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 383.136560 seconds.
+  path: Assets/Presentation/Models
+  artifactKey: Guid(d45ab28440e69ef4fba902d7036fafc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models using Guid(d45ab28440e69ef4fba902d7036fafc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11dd9ef6e96342acc90514f1bea801d') in 0.005425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.507509 seconds.
+  path: Assets/Presentation/Models/apc9k
+  artifactKey: Guid(1435a63ddacd9c045a6202c27af045e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k using Guid(1435a63ddacd9c045a6202c27af045e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1083f35df8c3fe780c766e4a936b7a86') in 0.005097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.368015 seconds.
+  path: Assets/Presentation/Models/apc9k/source
+  artifactKey: Guid(f312da068e5e46444b05020fa42b17b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/source using Guid(f312da068e5e46444b05020fa42b17b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9845664184ea3a1c42809e0d15bc63') in 0.005010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.066996 seconds.
+  path: Assets/Presentation/Models/apc9k/source/Painter marmo.fbx
+  artifactKey: Guid(593fe28773d5a224fbd57426ffb03ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/source/Painter marmo.fbx using Guid(593fe28773d5a224fbd57426ffb03ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2866c305bc9f5de5d072004074e50cec') in 0.131137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.384616 seconds.
+  path: Assets/Presentation/Models/apc9k/textures
+  artifactKey: Guid(8bd4a406bbc5bca49a78d1effaf39f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures using Guid(8bd4a406bbc5bca49a78d1effaf39f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa0dd77583a5d25f231a1e1dd5c4dc8') in 0.005383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052631 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/Painter_marmo_Accesories_BaseColor_Utility.png
+  artifactKey: Guid(5c50eb86bb0f7be438a21486006ce4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/Painter_marmo_Accesories_BaseColor_Utility.png using Guid(5c50eb86bb0f7be438a21486006ce4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523acdb2ce9b43f12343d7ce1055c0e0') in 0.055045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_Metallic_Utility_-_Ra.png
+  artifactKey: Guid(636b8c2a676a7bd4685714d573ce29ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_Metallic_Utility_-_Ra.png using Guid(636b8c2a676a7bd4685714d573ce29ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac3af0e0545797029211962a1dc3cce') in 0.009417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_BaseColor_Utility_-_s.png
+  artifactKey: Guid(c77a485a6507959478c77add5276b93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_BaseColor_Utility_-_s.png using Guid(c77a485a6507959478c77add5276b93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20e12264dd2391c7342d37aa321ce5d') in 0.010855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_Normal_Utility_-_Raw..png
+  artifactKey: Guid(f5739a75cbdf3a84d8d876a266cc2581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_Normal_Utility_-_Raw..png using Guid(f5739a75cbdf3a84d8d876a266cc2581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c593e7dfe896c3359abc662cd4484b') in 0.010056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/Painter_marmo_Accesories_Normal_Utility_-_.png
+  artifactKey: Guid(75e011dac40d93348a05c669559b9fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/Painter_marmo_Accesories_Normal_Utility_-_.png using Guid(75e011dac40d93348a05c669559b9fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d1a6e754f9de794453f77a7f8181c5') in 0.009193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.613822 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/Painter_marmo_Accesories_Metallic_Utility_.png
+  artifactKey: Guid(3afdb7287ab30d842b58e7934881a9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/Painter_marmo_Accesories_Metallic_Utility_.png using Guid(3afdb7287ab30d842b58e7934881a9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a5432dc7279c0285d073f448b47c3b') in 0.028363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_Metallic_Utility_-_Ra.png
+  artifactKey: Guid(636b8c2a676a7bd4685714d573ce29ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_Metallic_Utility_-_Ra.png using Guid(636b8c2a676a7bd4685714d573ce29ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03d1b1c0380e4247a1eee8c207ac533') in 0.013350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_BaseColor_Utility_-_s.png
+  artifactKey: Guid(c77a485a6507959478c77add5276b93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_BaseColor_Utility_-_s.png using Guid(c77a485a6507959478c77add5276b93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7bd1352f06a54015e0b1f4f24482226') in 0.017671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_Normal_Utility_-_Raw..png
+  artifactKey: Guid(f5739a75cbdf3a84d8d876a266cc2581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/Painter_marmo_Weapon_Normal_Utility_-_Raw..png using Guid(f5739a75cbdf3a84d8d876a266cc2581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76dae0b39cd2ca27c85be481f28b0c2') in 0.012422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.427009 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/Painter_marmo_Accesories_BaseColor_Utility.png
+  artifactKey: Guid(5c50eb86bb0f7be438a21486006ce4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/Painter_marmo_Accesories_BaseColor_Utility.png using Guid(5c50eb86bb0f7be438a21486006ce4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9436aaea6203fda9dd071fe502bb46') in 0.017688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.741851 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd
+  artifactKey: Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd using Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42cfc1279a46fbaf1919953bf728d691') in 0.034145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd
+  artifactKey: Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd using Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03fa845761212c2e46fac3b4343677a') in 0.027383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo_Light.psd
+  artifactKey: Guid(35ff0937876540d3bd4b6a941df62a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo_Light.psd using Guid(35ff0937876540d3bd4b6a941df62a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c314c1eab5db39322d40cbb3d09b00c') in 0.026579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine_Light.psd
+  artifactKey: Guid(49679f302ac6408697f6b9314a38985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine_Light.psd using Guid(49679f302ac6408697f6b9314a38985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe7d1f075d98d33dc2c1ed45056eb5a') in 0.028589 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
