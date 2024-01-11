@@ -3565,3 +3565,97 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1713.602722 seconds.
+  path: Assets/Presentation/ScriptableObjects/M4A1.asset
+  artifactKey: Guid(87705879f562d6e44abe5b7e53a19794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/ScriptableObjects/M4A1.asset using Guid(87705879f562d6e44abe5b7e53a19794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb32f835e74ad61c001eefa4c371aa2') in 0.026225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1067.689939 seconds.
+  path: Assets/Presentation/Models/apc9k/textures/APC-9 Mod.mat
+  artifactKey: Guid(c31d2848435ec964388dc3252294633b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presentation/Models/apc9k/textures/APC-9 Mod.mat using Guid(c31d2848435ec964388dc3252294633b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a474e5554507bb8a853185eca5992f') in 0.061203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2791.971527 seconds.
+  path: Assets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 2.prefab
+  artifactKey: Guid(2b80d2843dd54ca46ac16e9f28dcf9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 2.prefab using Guid(2b80d2843dd54ca46ac16e9f28dcf9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9c5e86589fa10728579f59c6997aa9') in 0.052119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 10.prefab
+  artifactKey: Guid(f13c1e90acdc2fc488ddaa96db1491f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 10.prefab using Guid(f13c1e90acdc2fc488ddaa96db1491f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c671054d797ef602479bbb92672d9c0') in 0.010056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 19.prefab
+  artifactKey: Guid(5e4b26c055ae2554cbd792be1c7fa901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 19.prefab using Guid(5e4b26c055ae2554cbd792be1c7fa901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4e4eedf15484e9e0b1e7ca4155a7d7') in 0.009765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 11.prefab
+  artifactKey: Guid(9058260c08717d340aa6d4f552e69e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 11.prefab using Guid(9058260c08717d340aa6d4f552e69e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7491b2fae9c2c577fa6142ad99f49d23') in 0.010716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 3.prefab
+  artifactKey: Guid(b7d03fb0762c75449af69d624547e358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 3.prefab using Guid(b7d03fb0762c75449af69d624547e358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c972d541c695331f775163701d662c7') in 0.011449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 15.prefab
+  artifactKey: Guid(7b142295c8a5d8a4486a67f84893ed08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 15.prefab using Guid(7b142295c8a5d8a4486a67f84893ed08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320af4c63c782fe393d1d49c68664c8b') in 0.010037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 8.prefab
+  artifactKey: Guid(c460780050234874594e9f7a0f7decc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 8.prefab using Guid(c460780050234874594e9f7a0f7decc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad38526ca357098556b984d4f5c8663') in 0.009328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 17.prefab
+  artifactKey: Guid(775b9962321c27e4ba730285152b2e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 17.prefab using Guid(775b9962321c27e4ba730285152b2e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457687b7912a8358ffe9556028a7959b') in 0.010005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 20.prefab
+  artifactKey: Guid(7b4c09739930d43458b94e59aa06933a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 20.prefab using Guid(7b4c09739930d43458b94e59aa06933a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957a64ba1093aa0a53266c9f887b844e') in 0.010283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 22.prefab
+  artifactKey: Guid(7867dee271ad828488f6fbfa576e75e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 22.prefab using Guid(7867dee271ad828488f6fbfa576e75e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b825996e897dd282c75886dea64836') in 0.010353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 12.prefab
+  artifactKey: Guid(b11531b8eca86ad43a1931bd652b0c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 12.prefab using Guid(b11531b8eca86ad43a1931bd652b0c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864c459d646bddf008060bc5d8898718') in 0.010110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 14.prefab
+  artifactKey: Guid(4e7bc0a8b112c984fb16cf716888808f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 14.prefab using Guid(4e7bc0a8b112c984fb16cf716888808f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073659b9c2eeb5033baa652d9f280e30') in 0.009254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 16.prefab
+  artifactKey: Guid(c21ec583e5b23614ca97b6233ab6d053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Muzzleflash Pack/Example Prefabs/Toon Muzzleflash 16.prefab using Guid(c21ec583e5b23614ca97b6233ab6d053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a3787c1ab922d354b10ccb6ea57a24') in 0.008814 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

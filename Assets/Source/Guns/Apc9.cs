@@ -17,6 +17,9 @@ namespace Source.Guns
         [SerializeField]
         private Transform shellSpawnLocation;
 
+        [SerializeField] private Transform muzzleFlashSpawnPosition;
+        [SerializeField] private GameObject muzzleFlash;
+
         [SerializeField]
         private GameObject shellPrefab;
 
@@ -32,6 +35,8 @@ namespace Source.Guns
             if (Input.GetKey(KeyCode.Mouse0))
             {
                 StartCoroutine(Shoot());
+                GameObject newFlash = Instantiate(muzzleFlash, muzzleFlashSpawnPosition.position, muzzleFlashSpawnPosition.rotation);
+                Destroy(newFlash, 0.01f);
             }
         }
 
@@ -41,10 +46,9 @@ namespace Source.Guns
                 yield break;
 
             _isShooting = false;
-
             
+            //Спавн пуль
             GameObject newBullet = Instantiate(bulletPrefab, bulletSpawnLocation.position, bulletSpawnLocation.rotation);
-        
             
             Rigidbody bulletRigidbody = newBullet.GetComponent<Rigidbody>();
             if (bulletRigidbody != null)
@@ -52,11 +56,11 @@ namespace Source.Guns
                 bulletRigidbody.AddForce(bulletSpawnLocation.forward * gunsData.bulletForce, ForceMode.Impulse);
             }
             
-            
             Vector3 rightDirection = shellSpawnLocation.right;
 
             Vector3 worldRightDirection = shellSpawnLocation.TransformDirection(rightDirection);
 
+            //Спавн гильз
             GameObject newShell = Instantiate(shellPrefab, shellSpawnLocation.position, shellSpawnLocation.rotation);
             
             Rigidbody shellRigidbody = newShell.GetComponent<Rigidbody>();
@@ -67,9 +71,9 @@ namespace Source.Guns
             
             Destroy(newBullet, 3f);
             Destroy(newShell, 3f);
-            
-            yield return new WaitForSeconds(1 / (gunsData.FireRate / 60f));
 
+            yield return new WaitForSeconds(1 / (gunsData.FireRate / 60f));
+            
             _isShooting = true;
         }
     }
