@@ -1,4 +1,5 @@
 using System.Collections;
+using Source.Player;
 using UnityEngine;
 
 namespace Source.Guns
@@ -7,6 +8,9 @@ namespace Source.Guns
     {
         [SerializeField]
         private GunsData gunsData;
+
+        [SerializeField] 
+        private PlayerMove playerMove;
 
         [SerializeField]
         private Transform bulletSpawnLocation;
@@ -32,7 +36,7 @@ namespace Source.Guns
 
         private void Update()
         {
-            if (Input.GetKey(KeyCode.Mouse0))
+            if (Input.GetKey(KeyCode.Mouse0) && playerMove.isSighting)
             {
                 StartCoroutine(Shoot());
                 GameObject newFlash = Instantiate(muzzleFlash, muzzleFlashSpawnPosition.position, muzzleFlashSpawnPosition.rotation);
@@ -75,6 +79,7 @@ namespace Source.Guns
             yield return new WaitForSeconds(1 / (gunsData.FireRate / 60f));
             
             _isShooting = true;
+            
         }
     }
 }

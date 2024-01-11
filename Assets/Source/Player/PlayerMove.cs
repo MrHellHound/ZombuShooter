@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Source.Player
 {
-    public class Playermovement_2 : MonoBehaviour
+    public class PlayerMove : MonoBehaviour
     {
         public float moveSpeed = 5f;
         public float sightSpeed = 2f;
