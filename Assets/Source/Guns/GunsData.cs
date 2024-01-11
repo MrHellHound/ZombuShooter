@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Source.Guns
 {
-    [CreateAssetMenu(menuName = "Guns", fileName = "new Gun")]
+    [CreateAssetMenu(menuName = "Scriptable guns", fileName = "New gun")]
     public class GunsData : ScriptableObject
     {
         [Tooltip("Моделька оружия")] 
@@ -33,9 +33,25 @@ namespace Source.Guns
         [SerializeField] private int _shellForce;
         public int shellForce => this._shellForce;
         
-        [Tooltip("Количество патронов в магазине")]
-        [SerializeField] private int _bulletsInMag;
-        public int BulletsInMag => this._bulletsInMag;
+        [Tooltip("Количество патронов вмещаемых в магазин")]
+        [SerializeField] private int _magCapacity;
+        public int MagCapacity
+        {
+            get => _magCapacity;
+            set => _magCapacity = value;
+        }
         
+        [Tooltip("Время перезарядки")]
+        [SerializeField] private int _reloadTime;
+        public int ReloadTime
+        {
+            get => _reloadTime;
+            set => _reloadTime = value;
+        }
+        
+        [Tooltip("Количество патронов после которого происходит предупреждение")]
+        [SerializeField] private int _ammoToWarn;
+        public int AmmoToWarn => this._ammoToWarn;
+
     }
 }
