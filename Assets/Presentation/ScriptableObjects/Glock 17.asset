@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26a1ba541fe928c478b908af2dc29e0c, type: 3}
   m_Name: Glock 17
   m_EditorClassIdentifier: 
-  gunModel: {fileID: 1472863698601021537, guid: d7ee012e87b40ac4f80f12bff7476624, type: 3}
-  mainSprite: {fileID: 0}
-  damage: 10
-  level: 1
+  _gunModel: {fileID: 0}
+  _mainSprite: {fileID: 0}
+  _damage: 0
+  _level: 0
+  _fireRate: 10
+  _bulletsInMag: 0

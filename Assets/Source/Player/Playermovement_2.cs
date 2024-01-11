@@ -6,6 +6,13 @@ namespace Source.Player
     {
         public float moveSpeed = 5f;
         public float sightSpeed = 2f;
+        public bool isSighting;
+
+        private void Start()
+        {
+            isSighting = false;
+        }
+
         void Update()
         {
             Move();
@@ -20,11 +27,13 @@ namespace Source.Player
             {
                 Vector3 movement = new Vector3(horizontalInput, 0f, verticalInput) * sightSpeed * Time.deltaTime;
                 transform.Translate(movement);
+                isSighting = true;
             }
             else
             {
                 Vector3 movement = new Vector3(horizontalInput, 0f, verticalInput) * moveSpeed * Time.deltaTime;
                 transform.Translate(movement);
+                isSighting = false;
             }
         }
     }
