@@ -5,7 +5,7 @@ namespace Source.Player
     public class PlayerRotation : MonoBehaviour
    {
     public float speed;
-    public Camera camera;
+    public new Camera camera;
 
         void Update()
         {
