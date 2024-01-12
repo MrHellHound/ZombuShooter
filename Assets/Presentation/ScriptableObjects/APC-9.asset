@@ -17,7 +17,7 @@ MonoBehaviour:
   _damage: 1
   _level: 1
   _fireRate: 1080
-  _bulletForce: 5
+  _bulletForce: 100
   _shellForce: 3
   _magCapacity: 30
   _reloadTime: 2
