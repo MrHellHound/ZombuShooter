@@ -47,6 +47,7 @@
      <Compile Include="Assets\Source\Player\PlayerRotation.cs" />
      <Compile Include="Assets\Source\Player\PlayerMove.cs" />
      <Compile Include="Assets\Source\Guns\APC-9\ApcAttachments.cs" />
+     <Compile Include="Assets\Source\Shop\AttachmentPurchase.cs" />
      <Folder Include="Assets" />
      <None Include="Assets\Presentation\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Presentation\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -64,6 +65,7 @@
      <Folder Include="Assets\Presentation\Models\apc9k" />
      <None Include="Assets\Presentation\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <Folder Include="Assets\Presentation\TextMesh Pro\Resources" />
+     <Folder Include="Assets\Source\Shop" />
      <Folder Include="Assets\Presentation\Models" />
      <Folder Include="Assets\Presentation\Prefabs\Toon Muzzleflash Pack" />
      <None Include="Assets\Presentation\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />

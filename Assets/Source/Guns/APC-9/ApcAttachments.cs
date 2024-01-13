@@ -24,15 +24,9 @@ namespace Source.Guns.APC_9
         
         [SerializeField] private GameObject stockSprite;
         
-        // Изменения индикаторов
-
-        [SerializeField] private GameObject[] indicators;
-        private int _index = 0;
-
         private void Update()
         {
             UIChanger();
-            Debug.Log(_index);
         }
 
         private void UIChanger()
@@ -55,6 +49,26 @@ namespace Source.Guns.APC_9
             else
             {
                 scopeSprite.SetActive(false);
+            }
+            
+            // Рукоять
+            if (underBarrel.activeInHierarchy)
+            {
+                underBarrelSprite.SetActive(true);
+            }
+            else
+            {
+                underBarrelSprite.SetActive(false);
+            }
+            
+            // Приклад
+            if (stock.activeInHierarchy)
+            {
+                stockSprite.SetActive(true);
+            }
+            else
+            {
+                stockSprite.SetActive(false);
             }
         }
     }
