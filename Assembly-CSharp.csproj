@@ -48,6 +48,7 @@
      <Compile Include="Assets\Source\Player\PlayerMove.cs" />
      <Compile Include="Assets\Source\Guns\APC-9\ApcAttachments.cs" />
      <Compile Include="Assets\Source\Shop\AttachmentPurchase.cs" />
+     <Compile Include="Assets\Source\Shop\Shop.cs" />
      <Folder Include="Assets" />
      <None Include="Assets\Presentation\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Presentation\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

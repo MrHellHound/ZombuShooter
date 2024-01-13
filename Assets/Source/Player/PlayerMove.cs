@@ -8,6 +8,8 @@ namespace Source.Player
         public float sightSpeed = 2f;
         public bool isSighting;
 
+        public Rigidbody rb;
+
         private void Start()
         {
             isSighting = false;
@@ -25,14 +27,14 @@ namespace Source.Player
             
             if (Input.GetKey(KeyCode.Mouse1))
             {
-                Vector3 movement = new Vector3(horizontalInput, 0f, verticalInput) * sightSpeed * Time.deltaTime;
-                transform.Translate(movement);
+                Vector3 movement = new Vector3(horizontalInput, 0.0f, verticalInput);
+                rb.AddForce(movement * sightSpeed);
                 isSighting = true;
             }
             else
             {
-                Vector3 movement = new Vector3(horizontalInput, 0f, verticalInput) * moveSpeed * Time.deltaTime;
-                transform.Translate(movement);
+                Vector3 movement = new Vector3(horizontalInput, 0.0f, verticalInput);
+                rb.AddForce(movement * moveSpeed);
                 isSighting = false;
             }
         }
