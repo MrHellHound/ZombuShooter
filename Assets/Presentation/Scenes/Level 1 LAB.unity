@@ -7288,7 +7288,7 @@ GameObject:
   - component: {fileID: 657060411}
   - component: {fileID: 657060410}
   m_Layer: 0
-  m_Name: Hall6
+  m_Name: 'Hall6 '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17948,7 +17948,7 @@ GameObject:
   - component: {fileID: 1346580692}
   - component: {fileID: 1346580691}
   m_Layer: 0
-  m_Name: Hall4
+  m_Name: 'Hall4 '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
