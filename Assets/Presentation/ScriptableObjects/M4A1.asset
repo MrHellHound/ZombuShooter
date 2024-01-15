@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: M4A1
   m_EditorClassIdentifier: 
   _gunModel: {fileID: 2252781956254714598, guid: eae21dcf7dc804340821be7ebf576aad, type: 3}
-  _mainSprite: {fileID: 21300000, guid: d24e7e0b75e1a244bb9687d6fd4315ef, type: 3}
+  _mainSprite: {fileID: 21300000, guid: f9161c6c9e06dc445ada3ee16d991f90, type: 3}
   _damage: 1
   _level: 1
   _fireRate: 700
   _bulletForce: 5
   _shellForce: 3
-  _bulletsInMag: 30
+  _magCapacity: 0
+  _reloadTime: 0
+  _ammoToWarn: 0

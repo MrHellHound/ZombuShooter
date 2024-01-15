@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Source.Guns
 {
@@ -10,8 +11,8 @@ namespace Source.Guns
         public GameObject GunModel => this._gunModel;
         
         [Tooltip("Спрайт")] 
-        [SerializeField] private Sprite _mainSprite;
-        public Sprite MainSprite => this._mainSprite;
+        [SerializeField] private Image _mainSprite;
+        public Image MainSprite => this._mainSprite;
         
         [Tooltip("Урон оружия")]
         [SerializeField] private int _damage;

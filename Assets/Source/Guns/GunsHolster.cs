@@ -7,11 +7,9 @@ namespace Source.Guns
         public int weaponSwitch = 0;
         [Tooltip("Количество слотов оружия")] 
         [SerializeField] private int inventorySlots;
-        void Start()
-        {
-            SelectWeapon();
-        }
-    
+
+        void Start() => SelectWeapon();
+
         void Update()
         {
             int currentWeapon = weaponSwitch;
