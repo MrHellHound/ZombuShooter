@@ -46,7 +46,7 @@
      <Compile Include="Assets\Source\Guns\APC-9\Apc.cs" />
      <Compile Include="Assets\Source\Player\PlayerRotation.cs" />
      <Compile Include="Assets\Source\Player\PlayerMove.cs" />
-     <Compile Include="Assets\Source\Guns\APC-9\ApcAttachments.cs" />
+     <Compile Include="Assets\Source\Guns\AttachmentSystem.cs" />
      <Compile Include="Assets\Source\Shop\AttachmentPurchase.cs" />
      <Compile Include="Assets\Source\Shop\Shop.cs" />
      <Folder Include="Assets" />
