@@ -1,6 +1,5 @@
 using Source.Guns;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace Source.Inventory
 {
@@ -10,18 +9,31 @@ namespace Source.Inventory
     {
         public bool occupied;
         public GunsData gunsData;
-        public Image icon;
-        
+
+        public GameObject apc9Icon;
+
+
+        private void Update()
+        {
+            WeaponCheck();
+        }
+
         public WeaponSlot()
         {
             occupied = false;
             gunsData = null;
         }
-        public void SetIcon(Sprite sprite)
+
+        private void WeaponCheck()
         {
-            if (icon != null)
+            // APC-9
+            if (gunsData != null && gunsData.GunName == "APC-9")
             {
-                icon.sprite = sprite;
+                apc9Icon.SetActive(true);
+            }
+            else
+            {
+                apc9Icon.SetActive(false);
             }
         }
     }

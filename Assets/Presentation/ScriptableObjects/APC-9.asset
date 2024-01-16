@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26a1ba541fe928c478b908af2dc29e0c, type: 3}
   m_Name: APC-9
   m_EditorClassIdentifier: 
+  _gunName: APC-9
   _gunModel: {fileID: 8278363175087858600, guid: 9eea3c6723aa1054b8f1575c6e30bb42, type: 3}
   _mainSprite: {fileID: 8961718003316232427, guid: 628335ab75f8d1544a6599a176725a2b, type: 3}
   _damage: 1

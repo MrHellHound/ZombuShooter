@@ -7,6 +7,10 @@ namespace Source.Guns
     public class GunsData : ScriptableObject
     {
         [Tooltip("Моделька оружия")] 
+        [SerializeField] private string _gunName;
+        public string GunName => this._gunName;
+        
+        [Tooltip("Моделька оружия")] 
         [SerializeField] private GameObject _gunModel;
         public GameObject GunModel => this._gunModel;
         
