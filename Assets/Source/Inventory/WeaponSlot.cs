@@ -11,6 +11,7 @@ namespace Source.Inventory
         public GunsData gunsData;
 
         public GameObject apc9Icon;
+        public GameObject m4a1Icon;
 
 
         private void Update()
@@ -34,6 +35,15 @@ namespace Source.Inventory
             else
             {
                 apc9Icon.SetActive(false);
+            }
+            
+            if (gunsData != null && gunsData.GunName == "M4A1")
+            {
+                m4a1Icon.SetActive(true);
+            }
+            else
+            {
+                m4a1Icon.SetActive(false);
             }
         }
     }

@@ -846,7 +846,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1057341000}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -865,10 +865,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5faba28e0be6bdd4dbd62e6495a803b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addButtonList:
+  addButtons:
   - {fileID: 1773518940}
   - {fileID: 1626904708}
-  apcData: {fileID: 0}
 --- !u!114 &367544897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1072,6 +1071,82 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &388427551
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 388427554}
+  - component: {fileID: 388427553}
+  - component: {fileID: 388427552}
+  m_Layer: 5
+  m_Name: M4A1 GunInfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &388427552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388427551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ddf2e76e8a1f88f46ae1e42277850b48, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &388427553
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388427551}
+  m_CullTransparentMesh: 1
+--- !u!224 &388427554
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388427551}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.4284315, y: 0.4284315, z: 0.4284315}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1057341000}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.000030518, y: 0.00030518}
+  m_SizeDelta: {x: 572.92, y: 215.62}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &416270782
 GameObject:
   m_ObjectHideFlags: 0
@@ -1973,6 +2048,7 @@ RectTransform:
   m_Children:
   - {fileID: 1578693976}
   - {fileID: 221116602}
+  - {fileID: 1459162463}
   - {fileID: 1390366409}
   m_Father: {fileID: 32120941}
   m_RootOrder: 4
@@ -2035,6 +2111,7 @@ MonoBehaviour:
   occupied: 0
   gunsData: {fileID: 0}
   apc9Icon: {fileID: 221116601}
+  m4a1Icon: {fileID: 388427551}
 --- !u!1 &997546913 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6786081851440967711, guid: d25821991318d4a4794216b632a69421, type: 3}
@@ -2251,13 +2328,14 @@ RectTransform:
   m_Children:
   - {fileID: 480364779}
   - {fileID: 1411663703}
+  - {fileID: 388427554}
   - {fileID: 367544895}
   m_Father: {fileID: 32120941}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3.2127075, y: -117.380005}
+  m_AnchoredPosition: {x: 3.2126465, y: -117.380005}
   m_SizeDelta: {x: -1046.8676, y: -564.6424}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1057341001
@@ -2275,6 +2353,7 @@ MonoBehaviour:
   occupied: 0
   gunsData: {fileID: 0}
   apc9Icon: {fileID: 1411663702}
+  m4a1Icon: {fileID: 388427551}
 --- !u!114 &1057341002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2644,7 +2723,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 918985490}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2757,10 +2836,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5faba28e0be6bdd4dbd62e6495a803b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addButtonList:
+  addButtons:
   - {fileID: 1773518940}
   - {fileID: 1626904708}
-  apcData: {fileID: 0}
 --- !u!1 &1411663702 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6786081850107190200, guid: d25821991318d4a4794216b632a69421, type: 3}
@@ -3046,6 +3124,82 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6786081850790651573, guid: d25821991318d4a4794216b632a69421, type: 3}
   m_PrefabInstance: {fileID: 6786081851521395646}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1459162462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1459162463}
+  - component: {fileID: 1459162465}
+  - component: {fileID: 1459162464}
+  m_Layer: 5
+  m_Name: M4A1 GunInfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1459162463
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459162462}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.42843324, y: 0.42843324, z: 0.42843324}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 918985490}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.000089645, y: -0.00020695}
+  m_SizeDelta: {x: 572.92, y: 215.62}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1459162464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459162462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ddf2e76e8a1f88f46ae1e42277850b48, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1459162465
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459162462}
+  m_CullTransparentMesh: 1
 --- !u!1 &1467573787
 GameObject:
   m_ObjectHideFlags: 0
@@ -3526,6 +3680,7 @@ GameObject:
   - component: {fileID: 1626904711}
   - component: {fileID: 1626904710}
   - component: {fileID: 1626904709}
+  - component: {fileID: 1626904712}
   - component: {fileID: 1626904708}
   m_Layer: 5
   m_Name: AddWeapon (1)
@@ -3567,7 +3722,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d71087c9b9a374caaa9b4c89c0ad14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slotIndex: 1
   weaponSlots:
   - {fileID: 918985493}
   - {fileID: 1057341001}
@@ -3618,10 +3772,10 @@ MonoBehaviour:
       - m_Target: {fileID: 1626904708}
         m_TargetAssemblyTypeName: Source.Inventory.AddButton, Assembly-CSharp
         m_MethodName: AddWeaponToSelectedSlot
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: 87705879f562d6e44abe5b7e53a19794, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Source.Guns.GunsData, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3665,6 +3819,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1626904706}
   m_CullTransparentMesh: 1
+--- !u!114 &1626904712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626904706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5faba28e0be6bdd4dbd62e6495a803b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  addButtons:
+  - {fileID: 1773518940}
+  - {fileID: 1626904708}
 --- !u!1 &1681908331 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6786081849976785365, guid: d25821991318d4a4794216b632a69421, type: 3}
@@ -3835,6 +4004,7 @@ GameObject:
   - component: {fileID: 1773518943}
   - component: {fileID: 1773518942}
   - component: {fileID: 1773518941}
+  - component: {fileID: 1773518944}
   - component: {fileID: 1773518940}
   m_Layer: 5
   m_Name: AddWeapon
@@ -3876,7 +4046,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d71087c9b9a374caaa9b4c89c0ad14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slotIndex: 0
   weaponSlots:
   - {fileID: 918985493}
   - {fileID: 1057341001}
@@ -3925,12 +4094,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1773518940}
-        m_TargetAssemblyTypeName: AddButton, Assembly-CSharp
+        m_TargetAssemblyTypeName: Source.Inventory.AddButton, Assembly-CSharp
         m_MethodName: AddWeaponToSelectedSlot
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: 313f8c34cddbf2e4eb4a93cd285400f6, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Source.Guns.GunsData, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3974,6 +4143,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1773518938}
   m_CullTransparentMesh: 1
+--- !u!114 &1773518944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773518938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5faba28e0be6bdd4dbd62e6495a803b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  addButtons:
+  - {fileID: 1773518940}
+  - {fileID: 1626904708}
 --- !u!1 &1828007942 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6786081850107190200, guid: d25821991318d4a4794216b632a69421, type: 3}

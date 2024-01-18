@@ -6,14 +6,21 @@ namespace Source.Inventory
 {
     public class InventorySlotPick : MonoBehaviour
     {
-        public List<AddButton> addButtonList;
-        public GunsData apcData;
+        public List<AddButton> addButtons;
 
-        public void OnSlotButtonClicked(int buttonIndex)
+        public void OnSlotButtonClicked(int slotIndex)
         {
-            if (buttonIndex >= 0 && buttonIndex < addButtonList.Count)
+            foreach (var addButton in addButtons)
             {
-                addButtonList[buttonIndex].AddWeaponToSlot(apcData);
+                addButton.SelectSlot(slotIndex);
+            }
+        }
+        
+        public void OnAddWeaponButtonClicked(GunsData newWeapon)
+        {
+            foreach (var addButton in addButtons)
+            {
+                addButton.AddWeaponToSelectedSlot(newWeapon);
             }
         }
     }

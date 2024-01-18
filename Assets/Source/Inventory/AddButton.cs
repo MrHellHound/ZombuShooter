@@ -5,16 +5,22 @@ namespace Source.Inventory
 {
     public class AddButton : MonoBehaviour
     {
-        public int slotIndex;
         public WeaponSlot[] weaponSlots;
 
-        public void AddWeaponToSlot(GunsData newWeapon)
-        {
-            if (slotIndex >= 0 && slotIndex < weaponSlots.Length)
-            {
-                WeaponSlot currentSlot = weaponSlots[slotIndex];
+        private int selectedSlotIndex = -1;
 
-                if (!currentSlot.occupied)
+        public void SelectSlot(int slotIndex)
+        {
+            selectedSlotIndex = slotIndex;
+        }
+
+        public void AddWeaponToSelectedSlot(GunsData newWeapon)
+        {
+            if (selectedSlotIndex >= 0 && selectedSlotIndex < weaponSlots.Length)
+            {
+                WeaponSlot selectedSlot = weaponSlots[selectedSlotIndex];
+
+                if (!selectedSlot.occupied)
                 {
                     bool canAddWeapon = true;
 
@@ -29,8 +35,8 @@ namespace Source.Inventory
 
                     if (canAddWeapon)
                     {
-                        currentSlot.occupied = true;
-                        currentSlot.gunsData = newWeapon;
+                        selectedSlot.occupied = true;
+                        selectedSlot.gunsData = newWeapon;
                     }
                 }
             }
