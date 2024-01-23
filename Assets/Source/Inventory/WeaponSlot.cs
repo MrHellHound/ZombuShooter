@@ -9,7 +9,7 @@ namespace Source.Inventory
     {
         public bool occupied;
         public GunsData gunsData;
-
+        
         public GameObject apc9Icon;
         public GameObject m4a1Icon;
 
@@ -30,7 +30,7 @@ namespace Source.Inventory
             // APC-9
             if (gunsData != null && gunsData.GunName == "APC-9")
             {
-                apc9Icon.SetActive(true);
+                 apc9Icon.SetActive(true);
             }
             else
             {

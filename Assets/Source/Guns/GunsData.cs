@@ -57,6 +57,6 @@ namespace Source.Guns
         [Tooltip("Количество патронов после которого происходит предупреждение")]
         [SerializeField] private int _ammoToWarn;
         public int AmmoToWarn => this._ammoToWarn;
-
+        
     }
 }
