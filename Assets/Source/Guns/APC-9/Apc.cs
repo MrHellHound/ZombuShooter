@@ -47,6 +47,8 @@ namespace Source.Guns.APC_9
             if (Input.GetKey(KeyCode.Mouse0) && playerMove.isSighting && _bulletsInMag != 0 && !_isReloading)
             {
                 StartCoroutine(Shoot());
+                
+                // Спавн дульной вспышки
                 GameObject newFlash = Instantiate(muzzleFlash, muzzleFlashSpawnPosition.position, muzzleFlashSpawnPosition.rotation);
                 Destroy(newFlash, 0.01f);
             }
@@ -77,26 +79,35 @@ namespace Source.Guns.APC_9
 
         private IEnumerator Shoot()
         {
-            if (!_isShooting)
+            if (!_isShooting || _isReloading)
                 yield break;
 
             _isShooting = false;
-            
-            // Спавн пуль
-            GameObject newBullet = Instantiate(bulletPrefab, bulletSpawnLocation.position, bulletSpawnLocation.rotation);
+
+            // Вычисляем угол разброса в зависимости от точности
+            float spreadAngle = 180f - gunsData.AccuracyPercentage;
+
+            // Создаем случайное значение в пределах угла разброса
+            float randomAngle = Random.Range(-spreadAngle / 2f, spreadAngle / 2f);
+
+            // Применяем случайное вращение к направлению выстрела
+            Vector3 bulletDirection = Quaternion.Euler(0f, 0f, randomAngle) * bulletSpawnLocation.forward;
+
+            // Спавн пуль с учетом разброса
+            GameObject newBullet = Instantiate(bulletPrefab, bulletSpawnLocation.position, Quaternion.LookRotation(bulletDirection));
             newBullet.transform.Rotate(-90,0,0);
-            
+    
             Rigidbody bulletRigidbody = newBullet.GetComponent<Rigidbody>();
             if (bulletRigidbody != null)
             {
-                bulletRigidbody.AddForce(bulletSpawnLocation.forward * gunsData.bulletForce, ForceMode.Impulse);
+                bulletRigidbody.AddForce(bulletDirection * gunsData.bulletForce, ForceMode.Impulse);
             }
-            
+    
+            // Спавн гильз
             Vector3 rightDirection = shellSpawnLocation.right;
 
             Vector3 worldRightDirection = shellSpawnLocation.TransformDirection(rightDirection);
-
-            // Спавн гильз
+            
             GameObject newShell = Instantiate(shellPrefab, shellSpawnLocation.position, shellSpawnLocation.rotation);
             
             Rigidbody shellRigidbody = newShell.GetComponent<Rigidbody>();
@@ -105,11 +116,11 @@ namespace Source.Guns.APC_9
                 shellRigidbody.AddForce(worldRightDirection * gunsData.shellForce, ForceMode.Impulse);
             }
             
-            Destroy(newBullet, 3f);
             Destroy(newShell, 3f);
+            Destroy(newBullet, 3f);
 
             yield return new WaitForSeconds(1 / (gunsData.FireRate / 60f));
-            
+
             _isShooting = true;
             _bulletsInMag--;
         }

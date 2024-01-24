@@ -58,5 +58,12 @@ namespace Source.Guns
         [SerializeField] private int _ammoToWarn;
         public int AmmoToWarn => this._ammoToWarn;
         
+        [Tooltip("Точность оружия")]
+        [SerializeField] private int _accuracyPercentage;
+        public int AccuracyPercentage
+        {
+            get => _accuracyPercentage;
+            set => _accuracyPercentage = value;
+        }
     }
 }

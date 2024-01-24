@@ -19,34 +19,17 @@ namespace Source.Inventory
             if (_selectedSlotIndex >= 0 && _selectedSlotIndex < weaponSlots.Length)
             {
                 WeaponSlot selectedSlot = weaponSlots[_selectedSlotIndex];
-                
-                if (IsWeaponAlreadyInInventory(newWeapon))
-                {
-                    return;
-                }
 
                 if (!selectedSlot.occupied)
                 {
-                    selectedSlot.gunsData = newWeapon;
                     selectedSlot.occupied = true;
+                    selectedSlot.gunsData = newWeapon;
                 }
                 else
                 {
                     TrySwapWeaponWithOtherSlots(newWeapon);
                 }
             }
-        }
-
-        private bool IsWeaponAlreadyInInventory(GunsData weaponToCheck)
-        {
-            for (int i = 0; i < weaponSlots.Length; i++)
-            {
-                if (weaponSlots[i].occupied && weaponSlots[i].gunsData == weaponToCheck)
-                {
-                    return true;
-                }
-            }
-            return false;
         }
 
         private void TrySwapWeaponWithOtherSlots(GunsData newWeapon)
