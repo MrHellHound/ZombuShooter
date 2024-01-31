@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Presentation/Scenes/Level 1 LAB.unity
+- path: Assets/Presentation/Scenes/Polygon.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
