@@ -6,6 +6,10 @@ namespace Source.Guns.APC_9
 {
     public class Apc : MonoBehaviour
     {
+        public int bulletsInMag;
+        public int bulletsReserve;
+        public int bulletsToReload;
+        
         [SerializeField]
         private GunsData gunsData;
 
@@ -27,8 +31,6 @@ namespace Source.Guns.APC_9
         [SerializeField]
         private GameObject shellPrefab;
 
-        private int _bulletsInMag;
-        
         private bool _isShooting;
         private bool _isReloading;
         
@@ -38,13 +40,14 @@ namespace Source.Guns.APC_9
         private void Start()
         {
             _isShooting = true;
-            _bulletsInMag = gunsData.MagCapacity;
+            bulletsInMag = gunsData.MagCapacity;
+            bulletsToReload = gunsData.MagCapacity;
         }
 
         private void Update()
         {
             // Логика стрельбы
-            if (Input.GetKey(KeyCode.Mouse0) && playerMove.isSighting && _bulletsInMag != 0 && !_isReloading)
+            if (Input.GetKey(KeyCode.Mouse0) && playerMove.isSighting && bulletsInMag != 0 && !_isReloading)
             {
                 StartCoroutine(Shoot());
                 
@@ -54,18 +57,18 @@ namespace Source.Guns.APC_9
             }
             
             // Логика перезарядки
-            if (_bulletsInMag < gunsData.MagCapacity && Input.GetKey(KeyCode.R))
+            if (bulletsInMag < gunsData.MagCapacity && Input.GetKey(KeyCode.R))
             {
                 _isReloading = true;
                 StartCoroutine(Reload());
             }
             
             // Логика предупреждений
-            if (_bulletsInMag <= gunsData.AmmoToWarn)
+            if (bulletsInMag <= gunsData.AmmoToWarn)
             {
                 lowAmmo.SetActive(true);
             }
-            if (_bulletsInMag == 0)
+            if (bulletsInMag == 0)
             {
                 lowAmmo.SetActive(false);
                 nowAmmo.SetActive(true);
@@ -122,14 +125,20 @@ namespace Source.Guns.APC_9
             yield return new WaitForSeconds(1 / (gunsData.FireRate / 60f));
 
             _isShooting = true;
-            _bulletsInMag--;
+            bulletsInMag--;
         }
 
         private IEnumerator Reload()
         {
             yield return new WaitForSeconds(gunsData.ReloadTime);
-            _bulletsInMag = gunsData.MagCapacity;
-           _isReloading = false;
+
+            if (bulletsInMag < gunsData.MagCapacity && bulletsReserve > 0)
+            {
+                int bulletsToReloadNow = Mathf.Min(bulletsToReload, gunsData.MagCapacity - bulletsInMag, bulletsReserve);
+                bulletsReserve -= bulletsToReloadNow;
+                bulletsInMag += bulletsToReloadNow;
+            }
+            _isReloading = false;
         }
     }
 }
