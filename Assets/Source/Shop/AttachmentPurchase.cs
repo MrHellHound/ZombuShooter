@@ -5,6 +5,7 @@ namespace Source.Shop
     public class AttachmentPurchase : MonoBehaviour
     {
         [SerializeField] private GameObject attachment;
+        [SerializeField] private GameObject[] attachmentsSprites;
         [SerializeField] private GameObject[] indicators;
         private static int _index = 0;
         private bool _firstClick = true;
@@ -13,11 +14,21 @@ namespace Source.Shop
         {
             if (_firstClick)
             {
+                foreach (var spriteObject in attachmentsSprites)
+                {
+                    spriteObject.SetActive(true);
+                }
+                
                 attachment.SetActive(true);
                 _index++;
             }
             else if (!_firstClick)
             {
+                foreach (var spriteObject in attachmentsSprites)
+                {
+                    spriteObject.SetActive(false);
+                }
+                
                 attachment.SetActive(false);
                 _index--;
             }

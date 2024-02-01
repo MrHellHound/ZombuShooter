@@ -2629,7 +2629,7 @@ GameObject:
   - component: {fileID: 1280205980}
   - component: {fileID: 1280205979}
   m_Layer: 0
-  m_Name: AttachmentSystem
+  m_Name: GunSwap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2648,17 +2648,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainGun: {fileID: 545828684}
-  attachment1: {fileID: 8471191215850386187}
-  attachment2: {fileID: 4045971062682636162}
-  attachment3: {fileID: 3363047305465829302}
-  attachment4: {fileID: 3956304951684092424}
-  attachment5: {fileID: 0}
   mainGunInfo: {fileID: 1828007942}
-  attachmentSprite1: []
-  attachmentSprite2: []
-  attachmentSprite3: []
-  attachmentSprite4: []
-  attachmentSprite5: []
 --- !u!4 &1280205980
 Transform:
   m_ObjectHideFlags: 0
@@ -2681,6 +2671,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 32120941}
     m_Modifications:
+    - target: {fileID: 466205485296830283, guid: 7e9aa81a7ffd4794fb35df216c9e522d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 8.300049
+      objectReference: {fileID: 0}
     - target: {fileID: 6365075107321389411, guid: 7e9aa81a7ffd4794fb35df216c9e522d, type: 3}
       propertyPath: addButtons.Array.data[0]
       value: 
@@ -2866,6 +2860,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 32120941}
     m_Modifications:
+    - target: {fileID: 466205485296830283, guid: 7e9aa81a7ffd4794fb35df216c9e522d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 8.300049
+      objectReference: {fileID: 0}
     - target: {fileID: 6365075107321389411, guid: 7e9aa81a7ffd4794fb35df216c9e522d, type: 3}
       propertyPath: addButtons.Array.data[0]
       value: 
@@ -3736,6 +3734,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attachment: {fileID: 8471191215850386187}
+  attachmentsSprites:
+  - {fileID: 1437748491}
+  - {fileID: 1119460152}
+  - {fileID: 716182086}
+  - {fileID: 2110153187}
   indicators:
   - {fileID: 2009650255}
   - {fileID: 2127895373}
@@ -4404,6 +4407,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attachment: {fileID: 4045971062682636162}
+  attachmentsSprites:
+  - {fileID: 1335326464}
+  - {fileID: 903091382}
+  - {fileID: 709954032}
+  - {fileID: 933343196}
   indicators:
   - {fileID: 2009650255}
   - {fileID: 2127895373}
@@ -5372,6 +5380,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attachment: {fileID: 3363047305465829302}
+  attachmentsSprites:
+  - {fileID: 1309298111}
+  - {fileID: 522502043}
+  - {fileID: 863889618}
+  - {fileID: 1884979987}
   indicators:
   - {fileID: 2009650255}
   - {fileID: 2127895373}
@@ -5619,6 +5632,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attachment: {fileID: 3956304951684092424}
+  attachmentsSprites:
+  - {fileID: 997546913}
+  - {fileID: 26186345}
+  - {fileID: 351778558}
+  - {fileID: 1477898194}
   indicators:
   - {fileID: 2009650255}
   - {fileID: 2127895373}
@@ -6055,6 +6073,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 32120941}
     m_Modifications:
+    - target: {fileID: 466205485296830283, guid: 7e9aa81a7ffd4794fb35df216c9e522d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 8.300049
+      objectReference: {fileID: 0}
     - target: {fileID: 6365075107321389411, guid: 7e9aa81a7ffd4794fb35df216c9e522d, type: 3}
       propertyPath: addButtons.Array.data[0]
       value: 

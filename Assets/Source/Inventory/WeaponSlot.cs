@@ -12,8 +12,7 @@ namespace Source.Inventory
         
         public GameObject apc9Icon;
         public GameObject m4a1Icon;
-
-
+        
         private void Update()
         {
             WeaponCheck();
