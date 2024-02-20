@@ -21,12 +21,15 @@ namespace Invector.vCharacterController
         [HideInInspector] public vThirdPersonCamera tpCamera;
         [HideInInspector] public Camera cameraMain;
 
+        public bool isStrafing;
+
         #endregion
 
         protected virtual void Start()
         {
             InitilizeController();
             InitializeTpCamera();
+            isStrafing = false;
         }
 
         protected virtual void FixedUpdate()
@@ -116,7 +119,10 @@ namespace Invector.vCharacterController
         protected virtual void StrafeInput()
         {
             if (Input.GetKeyDown(strafeInput))
+            {
                 cc.Strafe();
+                isStrafing = true;
+            }
         }
 
         protected virtual void SprintInput()

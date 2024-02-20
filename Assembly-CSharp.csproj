@@ -65,6 +65,9 @@
      <Compile Include="Assets\Source\UI\AmmoCounter.cs" />
      <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Camera\vThirdPersonCamera.cs" />
      <Compile Include="Assets\Source\Shop\Shop.cs" />
+     <Compile Include="Assets\Source\Player\CursorLock.cs" />
+     <Compile Include="Assets\Source\Player\ShootingZoom.cs" />
+     <Compile Include="Assets\Source\Guns\GunRotation.cs" />
      <Folder Include="Assets" />
      <None Include="Assets\Presentation\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Presentation\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
