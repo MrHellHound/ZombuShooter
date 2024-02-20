@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 4703233186394516924}
   - component: {fileID: 901219749428648253}
   - component: {fileID: -735614188666482832}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: 9mm_Shell
-  m_TagString: Untagged
+  m_TagString: Shell
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3868698078539912479}
   - component: {fileID: 7263197753575696560}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -162,7 +162,7 @@ GameObject:
   - component: {fileID: 1736132196826670316}
   - component: {fileID: 1122949101}
   - component: {fileID: 1122949102}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 9mm_Bullet
   m_TagString: Bullet
   m_Icon: {fileID: 0}
