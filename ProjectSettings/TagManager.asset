@@ -6,16 +6,17 @@ TagManager:
   tags:
   - Solid
   - Bullet
+  - Shell
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - Solid
-  - 
-  - 
+  - Bullet
+  - Shell
   - 
   - 
   - 
