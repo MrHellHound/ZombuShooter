@@ -1,5 +1,4 @@
 using System.Collections;
-using Invector.vCharacterController;
 using UnityEngine;
 
 namespace Source.Guns.APC_9
@@ -12,10 +11,7 @@ namespace Source.Guns.APC_9
         
         [SerializeField]
         private GunsData gunsData;
-
-        [SerializeField] 
-        private vThirdPersonController vThirdPersonController;
-
+        
         [SerializeField]
         private Transform bulletSpawnLocation;
 
@@ -47,7 +43,7 @@ namespace Source.Guns.APC_9
         private void Update()
         {
             // Логика стрельбы
-            if (Input.GetKey(KeyCode.Mouse0) && vThirdPersonController.isStrafing && bulletsInMag != 0 && !_isReloading)
+            if (Input.GetKey(KeyCode.Mouse0) && bulletsInMag != 0 && !_isReloading)
             {
                 StartCoroutine(Shoot());
                 // Спавн дульной вспышки
