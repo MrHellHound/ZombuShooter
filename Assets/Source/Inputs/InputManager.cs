@@ -28,8 +28,8 @@ namespace Source.Inputs
             {
                 playerControls = new PlayerControls();
 
-                playerControls.PlayerMovement.Movement.performed += i => movementInput = i.ReadValue<Vector2>();
-                playerControls.PlayerMovement.Camera.performed += i => cameraInput = i.ReadValue<Vector2>();
+                playerControls.PlayerInputs.Movement.performed += i => movementInput = i.ReadValue<Vector2>();
+                playerControls.PlayerInputs.Camera.performed += i => cameraInput = i.ReadValue<Vector2>();
             }
             
             playerControls.Enable();
